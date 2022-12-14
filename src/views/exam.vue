@@ -34,10 +34,8 @@ export default {
     };
   },
   computed: {
-    ...mapState("examStore", ["txt"])
   },
   methods: {
-    ...mapMutations("examStore", ["modTxt"]),
     historyBack() {
       Toast("返回");
     }
